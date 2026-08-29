@@ -1,79 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jeevitha B K - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
 
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">Jeevitha B K</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2d3748;
+  color: white;
+}
 
-  <!-- Hero/Profile Section -->
-  <section class="hero" id="home">
-    <div class="avatar">JK</div>
-    <h1>Jeevitha B K</h1>
-    <p class="role">Aspiring Web Developer</p>
-  </section>
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Me</h2>
-    <p>I'm a passionate learner currently building my skills in web development through the Oasis Infobyte internship. I enjoy solving problems and am always eager to learn new technologies and tools.</p>
-  </section>
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
 
-  <!-- Skills Section -->
-  <section class="skills" id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-box">HTML</div>
-      <div class="skill-box">CSS</div>
-      <div class="skill-box">JavaScript (Basic)</div>
-      <div class="skill-box">Git & GitHub</div>
-      <div class="skill-box">Python (Learning)</div>
-      <div class="skill-box">Communication</div>
-      <div class="skill-box">Problem Solving</div>
-      <div class="skill-box">Quick Learner</div>
-    </div>
-  </section>
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
 
-  <!-- Projects Section -->
-  <section class="projects" id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>EduLearn - Landing Page</h3>
-      <p>A responsive landing page for an online learning platform, built with HTML & CSS.</p>
-      <a href="https://github.com/jeevithabk123/OIBSIP" target="_blank">View on GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>Temperature Converter</h3>
-      <p>An interactive tool to convert temperatures between Celsius, Fahrenheit, and Kelvin.</p>
-      <a href="https://github.com/jeevithabk123/OIBSIP" target="_blank">View on GitHub</a>
-    </div>
-  </section>
+.nav-links a:hover {
+  color: #f6ad55;
+}
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: jeevithabk123@example.com</p>
-    <p>GitHub: github.com/jeevithabk123</p>
-    <p>LinkedIn: linkedin.com/in/jeevithabk123</p>
-  </section>
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2d3748, #4a5568);
+  color: white;
+}
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Jeevitha B K. All rights reserved.</p>
-  </footer>
+.avatar {
+  width: 110px;
+  height: 110px;
+  background-color: #f6ad55;
+  color: #2d3748;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 auto 20px auto;
+}
 
-</body>
-</html>
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.hero .role {
+  font-size: 18px;
+  color: #cbd5e0;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #2d3748;
+}
+
+/* Skills Section */
+.skills {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f7fafc;
+}
+
+.skills h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #2d3748;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skill-box {
+  background-color: #2d3748;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+/* Projects Section */
+.projects {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.projects h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #2d3748;
+}
+
+.project-card {
+  display: inline-block;
+  width: 280px;
+  margin: 15px;
+  padding: 20px;
+  background-color: #f7fafc;
+  border-radius: 8px;
+  border-top: 4px solid #f6ad55;
+  text-align: left;
+  vertical-align: top;
+}
+
+.project-card h3 {
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #dd6b20;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f7fafc;
+}
+
+.contact h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #2d3748;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3748;
+  color: white;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .project-card {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+  }
+}
