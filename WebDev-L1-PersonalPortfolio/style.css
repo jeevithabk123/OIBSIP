@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeevitha B K - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Jeevitha B K</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero/Profile Section -->
+  <section class="hero" id="home">
+    <div class="avatar">JK</div>
+    <h1>Jeevitha B K</h1>
+    <p class="role">Aspiring Web Developer</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate learner currently building my skills in web development through the Oasis Infobyte internship. I enjoy solving problems and am always eager to learn new technologies and tools.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript (Basic)</div>
+      <div class="skill-box">Git & GitHub</div>
+      <div class="skill-box">Python (Learning)</div>
+      <div class="skill-box">Communication</div>
+      <div class="skill-box">Problem Solving</div>
+      <div class="skill-box">Quick Learner</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>EduLearn - Landing Page</h3>
+      <p>A responsive landing page for an online learning platform, built with HTML & CSS.</p>
+      <a href="https://github.com/jeevithabk123/OIBSIP" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Temperature Converter</h3>
+      <p>An interactive tool to convert temperatures between Celsius, Fahrenheit, and Kelvin.</p>
+      <a href="https://github.com/jeevithabk123/OIBSIP" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: jeevithabk123@example.com</p>
+    <p>GitHub: github.com/jeevithabk123</p>
+    <p>LinkedIn: linkedin.com/in/jeevithabk123</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Jeevitha B K. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
