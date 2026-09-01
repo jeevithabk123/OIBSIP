@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +9,7 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -22,17 +17,19 @@
 
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- NAVIGATION -->
     <header>
         <nav class="navbar">
 
-            <a href="#home" class="logo">Jeevitha.</a>
+            <a href="#home" class="logo">Jeevitha<span>.</span></a>
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
@@ -40,74 +37,416 @@
     </header>
 
 
-    <!-- Home Section -->
+    <!-- HOME -->
     <section id="home" class="hero">
 
         <div class="hero-content">
 
-            <p class="small-text">Hello, I'm</p>
+            <p class="hello">Hello, I'm</p>
 
             <h1>Jeevitha B K</h1>
 
             <h2>Aspiring Software Developer</h2>
 
-            <p>
-                I'm a 3rd-year Information Science student passionate about
-                Web Development. I enjoy creating responsive websites and
-                solving real-world problems through technology.
+            <p class="hero-description">
+                B.E. Information Science and Engineering student passionate
+                about web development, programming and learning new technologies.
             </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="btn">View Projects</a>
-                <a href="#contact" class="btn outline-btn">Contact Me</a>
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/jeevithabk123"
+                   target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/jeevithabk123"
+                   target="_blank">
+                    LinkedIn
+                </a>
+
             </div>
 
         </div>
 
-        <div class="hero-image">
-            <img src="images/profile.jpg" alt="Jeevitha B K">
+
+        <div class="profile-container">
+
+            <div class="profile-circle">
+
+                <img src="images/profile.jpg"
+                     alt="Jeevitha B K">
+
+            </div>
+
         </div>
 
     </section>
 
 
-    <!-- About Me Section -->
+    <!-- ABOUT -->
     <section id="about" class="section">
 
-        <h2 class="section-title">About Me</h2>
+        <div class="section-heading">
+            <p>Get To Know Me</p>
+            <h2>About Me</h2>
+        </div>
 
-        <div class="about-card">
+        <div class="about-content">
 
-            <p>
-                I'm Jeevitha B K, a 3rd-year Information Science student
-                passionate about Web Development. I enjoy creating responsive
-                websites, solving real-world problems through technology,
-                and continuously learning new tools and technologies to
-                improve my skills and grow as a Software Developer.
-            </p>
+            <div class="about-text">
 
-            <p>
-                I'm currently gaining practical experience through the
-                Oasis Infobyte Web Development internship.
-            </p>
+                <p>
+                    I am Jeevitha B K, a B.E. Information Science and
+                    Engineering student at SDM Institute of Technology.
+                    I am currently pursuing my third year of engineering
+                    and developing my skills in programming and web development.
+                </p>
+
+                <p>
+                    I am interested in building useful and user-friendly
+                    websites and applications. I am currently aspiring to
+                    become a Software Developer and continuously improving
+                    my technical skills through projects and internships.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="info-item">
+                    <span>Degree</span>
+                    <strong>B.E. Information Science</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>CGPA</span>
+                    <strong>7.9</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>College</span>
+                    <strong>SDM Institute of Technology</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Goal</span>
+                    <strong>Software Developer</strong>
+                </div>
+
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- Technical Skills Section -->
+    <!-- SKILLS -->
     <section id="skills" class="section">
 
-        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-heading">
+            <p>What I Know</p>
+            <h2>My Skills</h2>
+        </div>
+
 
         <div class="skills-grid">
 
             <div class="skill-card">
-                <i class="fa-brands fa-html5"></i>
-                <h3>HTML5</h3>
+                <div class="skill-icon">PY</div>
+                <h3>Python</h3>
+                <p>Programming</p>
             </div>
 
             <div class="skill-card">
-                <i class="fa-brands fa-css3-alt"></i>
-                <h
+                <div class="skill-icon">C</div>
+                <h3>C</h3>
+                <p>Programming Basics</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <h3>HTML</h3>
+                <p>Web Development</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">CSS</div>
+                <h3>CSS</h3>
+                <p>Basic Styling</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">GH</div>
+                <h3>GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">VS</div>
+                <h3>VS Code</h3>
+                <p>Development Tool</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+        <div class="section-heading">
+            <p>My Recent Work</p>
+            <h2>Projects</h2>
+        </div>
+
+
+        <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    A responsive and visually designed landing page created
+                    as part of my Web Development and Designing internship.
+                    The project focuses on HTML and CSS based webpage design.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <a href="https://jeevithabk123.github.io/OIBSIP/WebDev-L1-LandingPage/"
+                   target="_blank"
+                   class="project-link">
+                    Live Website →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>More Projects Coming Soon</h3>
+
+                <p>
+                    I am currently working on improving my web development
+                    and programming skills. More projects will be added
+                    to my portfolio as I complete them.
+                </p>
+
+                <div class="project-tech">
+                    <span>Web Development</span>
+                    <span>Learning</span>
+                </div>
+
+                <a href="#contact" class="project-link">
+                    Stay Tuned →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+
+        <div class="section-heading">
+            <p>My Professional Journey</p>
+            <h2>Experience</h2>
+        </div>
+
+
+        <div class="experience-card">
+
+            <div class="experience-top">
+
+                <div>
+                    <h3>Web Development & Designing Intern</h3>
+                    <h4>Oasis Infobyte</h4>
+                </div>
+
+                <span class="status">
+                    Ongoing
+                </span>
+
+            </div>
+
+            <p>
+                Currently undertaking a Web Development and Designing
+                internship at Oasis Infobyte. Working on practical web
+                development tasks using HTML and CSS and building projects
+                to strengthen my development skills.
+            </p>
+
+            <div class="experience-tags">
+                <span>Web Development</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+        <div class="section-heading">
+            <p>My Academic Background</p>
+            <h2>Education</h2>
+        </div>
+
+
+        <div class="education-card">
+
+            <div class="education-year">
+                2024<br>
+                <span>2028</span>
+            </div>
+
+            <div class="education-details">
+
+                <h3>Bachelor of Engineering</h3>
+
+                <h4>
+                    Information Science and Engineering
+                </h4>
+
+                <p>
+                    SDM Institute of Technology
+                </p>
+
+                <div class="education-info">
+                    <span>CGPA: 7.9</span>
+                    <span>2024 – 2028</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESUME -->
+    <section class="resume-section">
+
+        <div>
+
+            <p>Interested in my profile?</p>
+
+            <h2>Download My Resume</h2>
+
+            <p>
+                My resume will contain my education, skills, projects,
+                internship experience and career objective.
+            </p>
+
+        </div>
+
+        <a href="resume.html" class="btn">
+            Download Resume
+        </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+        <div class="section-heading">
+            <p>Let's Connect</p>
+            <h2>Contact Me</h2>
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <h3>Email</h3>
+
+                <a href="mailto:anandijeevi1827@gmail.com">
+                    anandijeevi1827@gmail.com
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>GitHub</h3>
+
+                <a href="https://github.com/jeevithabk123"
+                   target="_blank">
+                    github.com/jeevithabk123
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>LinkedIn</h3>
+
+                <a href="https://linkedin.com/in/jeevithabk123"
+                   target="_blank">
+                    linkedin.com/in/jeevithabk123
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Jeevitha B K
+        </p>
+
+        <p>
+            Aspiring Software Developer
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
