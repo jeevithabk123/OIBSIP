@@ -370,6 +370,7 @@ header {
 .education-card {
     max-width: 850px;
     margin: auto;
+    margin-bottom: 25px;
     padding: 35px;
 
     display: flex;
