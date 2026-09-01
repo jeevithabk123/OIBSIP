@@ -571,3 +571,28 @@ footer p:first-child {
         padding: 35px 20px;
     }
 }
+.certification-card {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background: #111725;
+    border: 1px solid #232b3c;
+    border-radius: 15px;
+}
+
+.certification-card h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.certification-card h4 {
+    color: #8d7aff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.certification-card p {
+    color: #929aaa;
+    margin-bottom: 15px;
+}
