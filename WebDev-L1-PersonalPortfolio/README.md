@@ -1,5 +1,12 @@
 # 👩‍💻 Personal Portfolio Website
 
+## 🌐 Live Portfolio Website
+
+🔗 **Visit My Portfolio:**  
+https://jeevithabk123.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/
+
+---
+
 ## 🌐 About the Project
 
 This is my personal portfolio website created as part of my **Web Development and Designing Internship at Oasis Infobyte**.
@@ -72,6 +79,9 @@ A personal portfolio website created to showcase my education, skills, internshi
 - 🌐 HTML5
 - 🎨 CSS3
 - ⚡ JavaScript
+
+**🔗 Live Website:**  
+https://jeevithabk123.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/
 
 ---
 
