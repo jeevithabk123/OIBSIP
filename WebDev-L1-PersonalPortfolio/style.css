@@ -723,3 +723,56 @@ footer p:first-child {
     color: #929aaa;
     margin-bottom: 15px;
 }
+
+.project-card-3d {
+    background: #111725;
+    border: 1px solid #232b3c;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.project-card-3d:hover {
+    transform: translateY(-10px);
+    border-color: #7c5cff;
+    box-shadow: 0 20px 40px rgba(124, 92, 255, 0.25);
+}
+
+.project-banner {
+    height: 180px;
+    position: relative;
+    background:
+        linear-gradient(180deg, rgba(11,15,25,0) 0%, #111725 100%),
+        repeating-linear-gradient(0deg, transparent, transparent 24px, rgba(124,92,255,0.25) 25px),
+        repeating-linear-gradient(90deg, transparent, transparent 24px, rgba(124,92,255,0.25) 25px),
+        radial-gradient(circle at 50% 40%, rgba(124,92,255,0.35), transparent 60%),
+        #0b0f19;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.project-number-badge {
+    background: rgba(11,15,25,0.7);
+    border: 1px solid #7c5cff;
+    color: #ffd60a;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.project-card-body {
+    padding: 30px;
+}
+
+.project-card-body h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-card-body p {
+    color: #929aaa;
+    font-size: 14px;
+}
