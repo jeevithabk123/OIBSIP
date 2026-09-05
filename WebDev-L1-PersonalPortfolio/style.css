@@ -557,12 +557,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
     transition: 0.3s;
 }
 
-.social-icons a i {
-    font-size: 20px;
-    color: #ffffff;
+.social-icons a svg {
+    width: 22px;
+    height: 22px;
+    fill: #ffffff;
+    transition: 0.3s;
 }
 
 .social-icons a:hover {
@@ -570,10 +573,9 @@ header {
     transform: translateY(-3px);
 }
 
-.social-icons a:hover i {
-    color: #7c5cff;
+.social-icons a:hover svg {
+    fill: #7c5cff;
 }
-
 .contact-form {
     max-width: 500px;
     margin: auto;
