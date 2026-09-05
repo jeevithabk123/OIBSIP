@@ -669,11 +669,14 @@ footer p:first-child {
     transition: 0.3s;
 }
 
-.social-icons a img {
-    width: 22px;
-    height: 22px;
+.social-icons a i {
+    font-size: 20px;
+    color: #ffffff;
 }
 
+.social-icons a:hover i {
+    color: #7c5cff;
+}
 .social-icons a:hover {
     border-color: #7c5cff;
     transform: translateY(-3px);
