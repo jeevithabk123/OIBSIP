@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 
@@ -590,6 +590,123 @@ footer p:first-child {
     color: #8d7aff;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+.contact-intro {
+    text-align: center;
+    color: #9da5b5;
+    max-width: 500px;
+    margin: -30px auto 50px;
+}
+
+.contact-details {
+    max-width: 500px;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.contact-detail-item .contact-icon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #1b1735;
+    color: #8d7aff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contact-detail-item span {
+    display: block;
+    color: #858d9d;
+    font-size: 13px;
+}
+
+.contact-detail-item a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.contact-detail-item a:hover {
+    color: #8d7aff;
+}
+
+.follow-me {
+    max-width: 500px;
+    margin: 0 auto 50px;
+}
+
+.follow-me h4 {
+    color: #858d9d;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    padding: 10px 18px;
+    background: #111725;
+    border: 1px solid #232b3c;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #b8becb;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    border-color: #7c5cff;
+    color: #ffffff;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: #858d9d;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #111725;
+    border: 1px solid #232b3c;
+    border-radius: 10px;
+    padding: 13px;
+    color: #ffffff;
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #7c5cff;
+}
+
+.contact-form button {
+    margin-top: 25px;
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
 }
 
 .certification-card p {
