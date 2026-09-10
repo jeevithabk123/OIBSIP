@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temperature Converter</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="wrap">
+
+    <header class="page-head">
+        <p class="eyebrow">Web Development Internship — Oasis Infobyte</p>
+        <h1>Temperature Converter</h1>
+        <p class="sub">Enter a value, choose its unit, and convert to Celsius, Fahrenheit, and Kelvin at once.</p>
+    </header>
+
+    <section class="converter-card">
+
+        <div class="thermo-column">
+            <div class="thermo">
+                <div class="thermo-tube">
+                    <div class="thermo-fill" id="thermoFill"></div>
+                </div>
+                <div class="thermo-bulb" id="thermoBulb"></div>
+            </div>
+        </div>
+
+        <form class="form-column" id="converterForm">
+
+            <label for="tempInput">Temperature value</label>
+            <input
+                type="text"
+                id="tempInput"
+                inputmode="decimal"
+                placeholder="e.g. 25"
+                autocomplete="off">
+
+            <label for="unitSelect">Input unit</label>
+            <select id="unitSelect">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+                <option value="K">Kelvin (K)</option>
+            </select>
+
+            <button type="submit" id="convertBtn">Convert</button>
+
+            <p class="error" id="errorMsg" role="alert"></p>
+
+            <div class="results">
+                <div class="result-card">
+                    <span class="result-label">Celsius</span>
+                    <span class="result-value" id="outC">—</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-label">Fahrenheit</span>
+                    <span class="result-value" id="outF">—</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-label">Kelvin</span>
+                    <span class="result-value" id="outK">—</span>
+                </div>
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer class="page-foot">
+        <p>Jeevitha B K · Task 3, Web Development &amp; Designing Internship</p>
+    </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
