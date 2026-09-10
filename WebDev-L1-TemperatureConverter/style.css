@@ -226,3 +226,6 @@ body {
         transition: none;
     }
 }
+#convertBtn {
+    background: #d94f5c;
+}
