@@ -2,6 +2,8 @@
 
 Task 3 of the OIBSIP Web Development & Designing internship (Level 1).
 
+🔗 **Live Demo:** [jeevithabk123.github.io/OIBSIP/WebDev-L1-TemperatureConverter/](https://jeevithabk123.github.io/OIBSIP/WebDev-L1-TemperatureConverter/)
+
 ## 🎯 Objective
 An interactive web tool that converts a temperature value between Celsius,
 Fahrenheit, and Kelvin, with real-time input validation, matching the
@@ -27,3 +29,6 @@ official task checklist.
 
 ## 🛠️ Tech
 HTML, CSS, JavaScript (Vanilla) — no frameworks or libraries
+
+## 👩‍💻 Author
+Jeevitha B K · [github.com/jeevithabk123](https://
